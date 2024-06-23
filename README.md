@@ -13,8 +13,7 @@
 9. View services:  `kubectl get services`
 10. Curl the url shown, for example: `curl http://192.168.49.2:31839` or change to your URL.
 11. Cleanup
-```bash
-kubectl delete service hello-node
+```bash service hello-node
 kubectl delete deployment hello-node
 minikube stop
 ````
